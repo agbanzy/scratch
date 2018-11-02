@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+
+body{
+   /* background-color: darkorange;*/
+     background-image: url(/images/front.png) ;
+   
+   height: 100%;
+   background-position: center ;
+   background-size: cover ;
+   background-repeat: no-repeat;
+   font-family: 'montserrat';
+   display: block;
+   text-align: center;
+   
+}
+form{
+ 
+    padding-top: 13;
+}
+input[type=text], input[type=password]{
+    padding: 10px 10px;
+    
+    width: 250px;
+    height:35px;
+    border: 2px solid rgb(60, 255, 0);
+    border-radius: 15px;
+    
+    
+}
+button[type=submit]{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 15px;
+    color:#fff;
+    cursor: pointer;}
+
+  
+nav{
+    width: 100%;
+    height: 30px;
+}
+/*nav ul{
+    float: left;
+}*/
+.signup{
+    float : right;
+}
+.mainsite{
+    float: left;
+}
+
+  
